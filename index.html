@@ -5,54 +5,87 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
     <header class="header">
       <h3 class="header-logo">Header Logo</h3>
-      <div class="nav-links">
+      <div class="nav-links-div">
         <ul>
-          <li><a href="">Link one</a></li>
-          <li><a href="">Link two</a></li>
-          <li><a href="">Link three</a></li>
+          <li><a class="nav-links" href="">Link one</a></li>
+          <li><a class="nav-links" href="">Link two</a></li>
+          <li><a class="nav-links" href="">Link three</a></li>
         </ul>
       </div>
     </header>
     <div class="container-one">
-      <div class="container-one-1"></div>
-      <h1>This website is awesome</h1>
-      <p>
-        This website has some subtext that goes here under the main title. it's
-        smaller font and the coor is lower contrast
-      </p>
-      <button class="button-one">Sign up</button>
+      <div class="container-one-1">
+        <h1 class="hero-main">This website is awesome</h1>
+        <p class="hero-secondary">
+          This website has some subtext that goes here under the main title.
+          it's smaller font and the coor is lower contrast
+        </p>
+        <button class="button-one">Sign up</button>
+      </div>
       <div class="container-one-2">
-        <p>this is a placeholder for an image</p>
+        <div>
+          <img
+            class="uncooked-pasta-img"
+            src="/img/pexels-katerina-holmes-5907896.jpg"
+            alt="uncooked pasta"
+          />
+        </div>
       </div>
     </div>
     <div class="container-two">
-     <div class="container-two-1">
-      <h2>Some random information</h2>
-     </div>
-     <div container-two-2>
-      <img class="images" src="/img/pexels-julie-aagaard-2097090.jpg" alt="pasta dish">
-      <figcaption>Very yummy pasta dish!</figcaption>
-      <img src="/img/pexels-julie-aagaard-2097090.jpg" alt="pasta dish">
-      <figcaption>Very yummy pasta dish!</figcaption>
-      <img src="/img/pexels-julie-aagaard-2097090.jpg" alt="pasta dish">
-      <figcaption>Very yummy pasta dish!</figcaption>
-      <img src="/img/pexels-julie-aagaard-2097090.jpg" alt="pasta dish">
-      <figcaption>Very yummy pasta dish!</figcaption>
-     </div>
+      <div class="container-two-1">
+        <h2>Some random information</h2>
+      </div>
+      <div class="container-two-2">
+        <div class="img-div">
+          <img
+            class="images"
+            src="/img/pexels-julie-aagaard-2097090.jpg"
+            alt="pasta dish"
+          />
+          <figcaption>Very yummy pasta dish!</figcaption>
+        </div>
+        <div class="img-div">
+          <img src="/img/pexels-julie-aagaard-2097090.jpg" alt="pasta dish" />
+          <figcaption>Very yummy pasta dish!</figcaption>
+        </div>
+        <div class="img-div">
+          <img src="/img/pexels-julie-aagaard-2097090.jpg" alt="pasta dish" />
+          <figcaption>Very yummy pasta dish!</figcaption>
+        </div>
+        <div class="img-div">
+          <img src="/img/pexels-julie-aagaard-2097090.jpg" alt="pasta dish" />
+          <figcaption>Very yummy pasta dish!</figcaption>
+        </div>
+      </div>
     </div>
     <div class="container-three">
-     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, ab fugit nesciunt quo quisquam sed? Velit dolore, inventore provident, praesentium ullam corrupti asperiores molestiae perferendis numquam suscipit totam. Facilis, ratione?</p>
-     <p>-Lorem, Lorem of Lorem</p>
+      <p class="quote-text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, ab fugit
+        nesciunt quo quisquam sed? Velit dolore, inventore provident,
+        praesentium ullam corrupti asperiores molestiae perferendis numquam
+        suscipit totam. Facilis, ratione?
+      </p>
+      <p class="quote-text-aurthor">-Lorem, Lorem of Lorem</p>
     </div>
-    <footer>
-     <h3>Call to action! It's Time!</h3>
-     <p>Sign up for our pasta by clicking that button right over there!</p>
-     <button class="button-two">Sign up</button>
+    <div class="container-four">
+      <div class="container-four-1">
+        <div class="container-four-1-1">
+          <h3>Call to action! It's Time!</h3>
+          <p>Sign up for our pasta by clicking that button right over there!</p>
+        </div>
+        <div class="container-four-2">
+          <button class="button-two">Sign up</button>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <p>Copyright &copy The Odin Project 2022</p>
     </footer>
   </body>
 </html>
